@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.links-header {
+    justify-content: center;
+}
+
+body>header {
+    background-color: black;
+    min-height: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body>header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+body>header button {
+    background-color: cadetblue;
+    color: white;
+    font-size: 1.1rem;
+    min-width: 80px;
+    min-height: 20px;
+    padding: 3px 9px;
+    margin-left: 300px;
+}
+
+.container {
+    width: 90%;
+    min-height: 800px;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    border: 3px solid grey;
+    padding: 0 0 0 20px;
+}
+
+.card-header {
+    margin: -3px 0 0 -23px;
+    width: 104%;
+}
+
+.card-content {
+    align-items: start;
+}
+
+.profile-header {
+    min-height: 100px;
+    background-color: cadetblue;
+}
+
+.profile-content {
+    position: relative;
+    bottom: 40px;
+}
+
+.profile-content>.fa-address-card {
+    font-size: 80px;
+}
+
+.education-header {
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 10px 20px;
+    width: 101%;
+}
+
+.education-content {
+    padding: 20px 0;
+}
+
+.education-head h2 {
+    margin-bottom: 5px;
+}
+
+.education-head h3 {
+    color: grey;
+}
+
+.education-body p {
+    word-wrap: normal;
+    margin-bottom: 10px;
+}
+
+.requests-header {
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+    width: 101%;
+}
+
+.fa-2 {
+    padding: 0 8px 0 5px;
+}
+
+.requests-content {
+    padding: 20px 0;
+}
+
+.request-line {
+    width: 95%;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+.requester-name .fa-address-card {
+    margin-right: 10px;
+}
+
+.connections-header {
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+    width: 101%;
+}
+
+.connections-footer {
+    margin-bottom: -30px;
+    width: 106%;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    border: 2px solid grey;
+    font-size: 15px;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.connections-content {
+    padding: 20px 0;
+    height: 300px;
+    font-size: 35px;
+}
+
+.fa-user-group {
+    padding: 0 8px 0 5px;
+}

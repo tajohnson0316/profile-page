@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5ea2e37ae4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="flex links-header">
+      Profile
+      <a href="#">Home</a>
+      <a href="#">My Profile</a>
+      <a href="#">Find Connections</a>
+      <button class="sign-out">Sign Out</button>
+    </header>
+    <main class="flex container">
+      <div class="flex column">
+        <div class="card">
+          <div class="card-header profile-header"></div>
+          <section class="flex column card-content profile-content">
+            <i class="fa-solid fa-address-card"></i>
+            <h1 class="profile-name">Jane Doe</h1>
+            <h2><i class="fa-solid fa-map-pin"></i> Seattle</h2>
+            <div class="profile-bio">
+              <p>Developer | Engineer | Problem Solver</p>
+              <p>Master of shadows and the Internet!</p>
+            </div>
+            <a href="#"><i class="fa-solid fa-gears"></i> edit profile</a>
+          </section>
+        </div>
+        <div class="card">
+          <div class="card-header education-header">Education</div>
+          <section class="flex column card-content education-content">
+            <div class="education-head">
+              <h2>Coding Dojo - Full Stack Bootcamp</h2>
+              <h3>Mar 2023 - Jul 2023</h3>
+            </div>
+            <div class="education-body">
+              <p>Triple black belt in Python, MERN, and C#.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Porttitor eget dolor morbi non arcu risus quis varius. Nunc
+                lobortis mattis aliquam faucibus purus in massa tempor.
+                Convallis aenean et tortor at risus viverra. Egestas pretium
+                aenean pharetra magna ac placerat. Mollis nunc sed id semper
+                risus in. Nullam eget felis eget nunc lobortis. Feugiat in
+                fermentum posuere urna nec. Aliquet nibh praesent tristique
+                magna sit amet purus gravida quis. Viverra nibh cras pulvinar
+                mattis. Dignissim cras tincidunt lobortis feugiat vivamus at
+                augue. Nibh venenatis cras sed felis eget velit aliquet. Ornare
+                suspendisse sed nisi lacus.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="flex column">
+        <div class="card">
+          <div class="card-header requests-header">
+            <i class="fa-solid fa-2"></i> Connection Requests
+          </div>
+          <aside class="flex column card-content requests-content">
+            <div class="flex request-line">
+              <p class="requester-name">
+                <i class="fa-solid fa-address-card"></i>Todd E
+              </p>
+              <p class="confirm-deny">
+                <i class="fa-solid fa-circle-check"
+                  ><i class="fa-regular fa-circle-xmark"></i
+                ></i>
+              </p>
+            </div>
+            <div class="flex request-line">
+              <p class="requester-name">
+                <i class="fa-solid fa-address-card"></i>Phil K
+              </p>
+              <i class="fa-solid fa-circle-check"
+                ><i class="fa-regular fa-circle-xmark"></i
+              ></i>
+            </div>
+          </aside>
+        </div>
+        <div class="card">
+          <div class="card-header connections-header">
+            <i class="fa-solid fa-user-group"></i> Your Connections
+          </div>
+          <aside class="flex column card-content connections-content">
+            <p class="requester-name">
+              <i class="fa-solid fa-address-card"></i>Adrien D
+            </p>
+            <p class="requester-name">
+              <i class="fa-solid fa-address-card"></i>Anne J
+            </p>
+            <p class="requester-name">
+              <i class="fa-solid fa-address-card"></i>Alayne T
+            </p>
+            <p class="requester-name">
+              <i class="fa-solid fa-address-card"></i>Arry Y
+            </p>
+              <a class="card-header connections-footer" href="#">View More</a>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
